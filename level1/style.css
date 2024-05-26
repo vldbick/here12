@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+.desc-cont {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.desc-cont>div {
+    padding: 5px 10px;
+}
+
+.desc-rul {
+    font-size: 25px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+#rules {
+    background-color: beige;
+    border-radius: 5px;
+    display: none;
+}
+
+#rules li {
+    margin-left: 30px;
+}
+
+.cont-img {
+    text-align: center;
+    padding: 30px;
+}
+
+.img img {
+    height: 250px;
+}
+
+.answer input {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#buttonAnswer {
+    background-color: rgba(225, 171, 36, 0.685);
+    border: none;
+}
+
+.taskProgress {
+    position: fixed;
+    top: 40vh;
+}
+
+.taskProgress p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.nextLevel {
+    position: fixed;
+    right: 20px;
+    top: 55vh;
+
+    background-color: burlywood;
+    height: 70px;
+    width: 180px;
+
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    
+    font-size: 30px;
+    display: none;
+}
+
+.nextLevel div {
+    padding-top: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

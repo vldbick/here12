@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Task 2</title>
+	<link rel="stylesheet" href="task2.css">
+
+	<link rel="stylesheet" href="alertify/alertify.core.css" />
+	<link rel="stylesheet" href="alertify/alertify.default.css" />
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1><i><u>Online-Quest</u></i></h1>
+		<h2>Task 2. Music Quiz</h2>
+		<article>
+			<p class="slideRules">Description & Rules ▼</p>
+			<div id="rules">
+				<p>
+				<ul style="list-style: none;">
+					<li>
+						<b>Music Quiz</b> - is a challenge in which you have to guess the soundtracks from different
+						films and cartoons.
+					</li>
+					<br>
+					<li>
+						<b>Rules:</b>
+						<ul style="margin-left: 40px">
+							<li>Guess 10 soundtracks</li>
+							<li>After answering 10 soundtracks, you will have access to the next task</li>
+							<li>You will have only 5 minutes to solve this task after pressing the <b>Start</b> button
+							</li>
+						</ul>
+					</li>
+				</ul>
+				</p>
+			</div>
+		</article>
+
+		<div class="taskProgress">
+			<p>Task progress:</p>
+			<input type="text" value="0" class="progress">
+		</div>
+
+		<div class="timeProgress">
+			<p>Time progrees</p>
+			<input type="text" value="0" class="time">
+		</div>
+
+		<div id="start">
+			<p>Start</p>
+		</div>
+
+		<div class="sound">
+			<audio controls src="#" id="melody"></audio>
+		</div>
+
+
+		<div class="answer">
+			<input type="text" id="inputTask" placeholder="Answer...">
+			<input type="button" value="Go!" id="btnTask">
+		</div>
+
+		<a href="../final/index.html">
+			<div id="nextTask">
+				<p>Next Task →</p>
+			</div>
+		</a>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+		integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.13/jquery.knob.min.js"
+		integrity="sha512-NhRZzPdzMOMf005Xmd4JonwPftz4Pe99mRVcFeRDcdCtfjv46zPIi/7ZKScbpHD/V0HB1Eb+ZWigMqw94VUVaw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+	<!-- JavaScript -->
+	<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+
+	<script src="./task2.js"></script>
+</body>
+
+</html>
